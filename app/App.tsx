@@ -1,4 +1,4 @@
-const NASA_API_KEY = '3lEpluq4YpL37kV0eyCskTussnSWrCccmLDPJvaX'; 
+const NASA_API_KEY = YOUR_API_KEY; 
 
 import React, { useState } from 'react';
 import { View, StyleSheet } from 'react-native';
