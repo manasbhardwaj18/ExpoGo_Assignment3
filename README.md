@@ -1,50 +1,26 @@
-# Welcome to your Expo app 👋
+# 🚀 Asteroid Explorer
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Asteroid Explorer is a mobile app built with Expo and React Native that allows users to search for specific asteroids or view a random asteroid using NASA's Near Earth Object Web Service (NeoWS). Users can discover key details about asteroids, including names, URLs, and hazard status.
 
-## Get started
+## 📋 Features
 
-1. Install dependencies
+- **Search Asteroid by ID**: Users can enter an asteroid ID to fetch specific details.
+- **Random Asteroid**: Allows users to view a random asteroid from the NASA NeoWS API.
+- **Asteroid Details**: Displays the asteroid's name, NASA JPL URL, and whether it's potentially hazardous.
 
-   ```bash
-   npm install
-   ```
+## 🚀 Getting Started
 
-2. Start the app
+### Prerequisites
 
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+- **Node.js** and **npm** installed.
+- **Expo CLI**: Install Expo CLI globally if you haven’t already:
+  ```bash
+  npm install -g expo-cli
+1. Clone the repository
+  ```bash
+git clone https://github.com/nikunjcodes/NasaAsteroidApp.git
+cd NasaApp
+npm install
 ```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+2. Set up you API key in App.tsx
+3. npx expo start
