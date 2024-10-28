@@ -24,3 +24,13 @@ npm install
 ```
 2. Set up you API key in App.tsx
 3. npx expo start
+# OUTPUT:
+1.Random Asteroid
+![Screenshot 2024-10-28 153330](https://github.com/user-attachments/assets/1544c4ab-1c58-48b4-bb81-07258b2eb21a)
+2. Using Submit Button
+![Screenshot 2024-10-28 153344](https://github.com/user-attachments/assets/bfeedff7-21e5-4b59-af48-a2051e41751c)
+The output :![Screenshot 2024-10-28 153359](https://github.com/user-attachments/assets/8dea1a92-1546-4a4f-b002-ac980f8df026)
+
+
+
+
