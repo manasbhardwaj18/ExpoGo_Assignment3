@@ -69,3 +69,15 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 
 
+## Output : 
+
+Using Search - 
+![Screenshot 2024-10-29 160943](https://github.com/user-attachments/assets/6b30f989-aa72-49db-96ef-3fe309e2b2b5)
+
+![Screenshot 2024-10-29 160959](https://github.com/user-attachments/assets/d8f66b75-ae6d-44a5-bc9b-6f522ed5d481)
+
+
+Generated Randomly -
+
+![Screenshot 2024-10-29 160055](https://github.com/user-attachments/assets/df77c331-969b-432c-8f64-c387a800897a)
+
