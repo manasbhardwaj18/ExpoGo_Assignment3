@@ -1,4 +1,4 @@
-const NASA_API_KEY = YOUR_API_KEY; 
+const NASA_API_KEY = 'keeeKbMcOcUuf6Yq1eZifLIOPYNYZT9Ch1jlQlxc'; 
 
 import React, { useState } from 'react';
 import { View, StyleSheet } from 'react-native';
@@ -119,45 +119,60 @@ const styles = StyleSheet.create({
     flex: 1,
     padding: 20,
     justifyContent: 'center',
-    backgroundColor: '#E0F7FA',
+    backgroundColor: '#FFEB3B', // Bright yellow for a cheerful vibe
   },
   title: {
-    fontSize: 26,
+    fontSize: 28, // Slightly larger font size
     fontWeight: 'bold',
-    color: '#004D40',
+    color: '#D5006D', // A lively pink
     textAlign: 'center',
-    marginBottom: 20,
+    marginBottom: 25,
+    textTransform: 'uppercase', // Uppercase for emphasis
   },
   input: {
     marginBottom: 15,
     backgroundColor: '#ffffff',
+    borderColor: '#D32F2F', // Red border for better visibility
+    borderWidth: 1,
+    borderRadius: 10, // More rounded corners
   },
   button: {
-    paddingVertical: 5,
-    borderRadius: 5,
+    paddingVertical: 10, // Increased padding
+    borderRadius: 25, // More rounded for a modern look
+    backgroundColor: '#00796B', // A refreshing teal
   },
   buttonLabel: {
-    fontSize: 16,
-    color: '#004D40',
+    fontSize: 18, // Larger button text
+    color: '#ffffff', // White text for contrast
   },
   loader: {
     marginTop: 20,
+    color: '#00796B', // Match loader color with the button
   },
   error: {
     color: '#D32F2F',
     textAlign: 'center',
     marginTop: 10,
+    fontWeight: 'bold', // Bold for emphasis
   },
   card: {
     marginTop: 20,
     backgroundColor: '#ffffff',
-    padding: 10,
-    borderRadius: 8,
+    padding: 15, // Increased padding
+    borderRadius: 12, // Slightly more rounded
+    shadowColor: '#000', // Adding shadow for depth
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.2,
+    shadowRadius: 6,
+    elevation: 4, // Elevation for Android
   },
   cardText: {
-    fontSize: 16,
-    marginVertical: 5,
-    color: '#004D40',
+    fontSize: 18, // Slightly larger text
+    marginVertical: 8,
+    color: '#004D40', // Keeping the original text color
   },
 });
 
